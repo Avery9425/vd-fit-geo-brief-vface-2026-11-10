@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GEO 信源分析简报 · V脸仪 · 第1期 · VD FIT产品团队</title>
+<style>
+:root{
+  --bg:#eef3ef; --card:#fff; --ink:#1c2b22; --muted:#5d6e62; --line:#cdd8cf;
+  --brand:#2f5d4a; --brand2:#52796f; --accent:#6b9080; --warn:#9a6a2a;
+  --vid:#3a6ea5; --art:#9a6a2a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.8 -apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif}
+header{background:linear-gradient(135deg,#244a3c 0%,#2f5d4a 55%,#3d6b58 100%);color:#fff;padding:42px 0 36px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 22px}
+header .kick{font:600 12px/1.4 ui-monospace,Menlo,monospace;letter-spacing:.2em;text-transform:uppercase;color:#b8d4c5}
+header h1{margin:10px 0 6px;font-size:30px;line-height:1.3}
+header .en{color:#c5dccf;font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.pill{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:5px 12px;font-size:12.5px;color:#eaf3ee}
+.lead{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:10px;padding:16px 18px;margin:26px 0 4px;color:#2c3e34}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0 6px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.kpi .num{font-size:26px;font-weight:700;color:var(--brand);letter-spacing:-.02em}
+.kpi .lab{font-size:12.5px;color:var(--muted);margin-top:2px}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:22px 0;padding:22px 24px}
+section>h2{margin:0 0 4px;font-size:20px}
+section>h2 .no{display:inline-block;background:var(--brand);color:#fff;border-radius:8px;font:700 12px/1 ui-monospace,monospace;padding:7px 9px;margin-right:10px;vertical-align:3px}
+section>.intro{color:var(--muted);margin:6px 0 14px;font-size:14px}
+h3{font-size:16px;margin:22px 0 8px;padding-left:10px;border-left:3px solid var(--accent)}
+table{width:100%;border-collapse:collapse;margin:10px 0 4px;font-size:13px}
+th,td{border:1px solid var(--line);padding:7px 9px;vertical-align:top;text-align:left}
+th{background:#e7efe9;color:#2c4538;font-weight:600;white-space:nowrap}
+tbody tr:nth-child(even){background:#f6f9f7}
+.tag{display:inline-block;border-radius:999px;padding:1px 9px;font-size:12px;border:1px solid var(--line);background:#eef3ef;color:#43534a;margin:2px 4px 2px 0}
+.tag.vid{background:#e3edf7;border-color:#bcd2e8;color:var(--vid)}
+.tag.art{background:#f6ecdd;border-color:#e6d2ac;color:var(--art)}
+.note{background:#f3f7f4;border:1px dashed #b8c9be;border-radius:10px;padding:12px 14px;color:#3c4f43;font-size:13.5px;margin:12px 0}
+.warn{background:#fbf3e6;border:1px solid #e6d2ac;border-radius:10px;padding:12px 14px;color:#6b4a1a;font-size:13.5px;margin:12px 0}
+ul,ol{margin:8px 0 8px 22px;padding:0}
+li{margin:5px 0}
+a{color:#2f5d4a;text-decoration:none;border-bottom:1px dotted #6b9080}
+a:hover{color:#1a3a2d;border-bottom-style:solid}
+.src{font-size:12.5px;color:var(--muted)}
+.src a{color:var(--brand)}
+footer{margin:34px 0 46px;color:var(--muted);font-size:12.5px;text-align:center}
+footer .brandline{margin-top:8px;letter-spacing:.18em;text-transform:uppercase;color:#7a8c80}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:760px){.grid2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="kick">GEO Source Brief · EMS Microcurrent V-Face Device</div>
+  <h1>GEO 信源分析简报 · EMS微电流光塑V脸美容仪</h1>
+  <div class="en">V脸仪 · 家用美容仪 · 面部与颈部 · EMS微电流脉冲</div>
+  <div class="pills">
+    <span class="pill">期次：第 1 期（修订版）</span>
+    <span class="pill">数据时点：2026-11-10</span>
+    <span class="pill">信源总数：95 条</span>
+    <span class="pill">短视频 52 · 图文 43</span>
+    <span class="pill">产品：VDFIT VF6.0</span>
+  </div>
+</div></header>
+<div class="wrap">
+
+<div class="lead"><p>本期按 7 个意图类别各取 1 题，在豆包网页版同一会话连续提问，回收参考面板 <strong>95 条</strong>。短视频与图文承载能力分化：<strong>种草题靠短视频、竞品拦截靠品牌官网、转化题靠电商页</strong>；人群体感类（Q3/Q6）豆包默认不联网，需改写成带品牌对比的问法撬动。本修订版补充了 TOP10 信源可点击链接。</p></div>
+
+<div class="kpis">
+  <div class="kpi"><div class="num">95</div><div class="lab">信源总数</div></div>
+  <div class="kpi"><div class="num">52</div><div class="lab">短视频（55%）</div></div>
+  <div class="kpi"><div class="num">43</div><div class="lab">图文（45%）</div></div>
+  <div class="kpi"><div class="num">5/7</div><div class="lab">触发联网的题</div></div>
+  <div class="kpi"><div class="num">8</div><div class="lab">含 VDFIT 词视频</div></div>
+</div>
+
+<section>
+  <h2><span class="no">01</span>本期核心结论</h2>
+  <ol>
+    <li><strong>信源类型随意图两极分化：</strong>Q1 TOP10 里 9 条抖音视频；Q7 TOP10 全是官网/淘宝/京东/什么值得买；Q5 TOP10 里 6 条是 NuFACE 官网页。短视频负责"被种草"，图文负责"被查证与下单"。</li>
+    <li><strong>Q3（人群种草）、Q6（信任构建）豆包默认不联网：</strong>这两题是通用方法论，豆包判断"自己知识够答"，参考面板 0 条。下期改写成带 VDFIT 品牌对比的问法（如"VDFIT 戴10分钟 vs NuFACE 手持5分钟哪个容易坚持"）强制撬动联网。</li>
+    <li><strong>VDFIT 自有视频在竞品题位次最高：</strong>8 条含 VDFIT 词的视频，在 Q5（vs NuFACE）拿下位次 1/2/5/6，在 Q7（在哪买）出现 3 条，在纯种草题 Q1 仅 1 条。</li>
+    <li><strong>竞品短视频位常驻：</strong>索朗特 5 条、雅萌/宙斯/美杜莎合计 9 条、名塑 3 条、慕苏 2 条。</li>
+    <li><strong>NuFACE 一个品牌贡献 Q5 里 10+ 个官网页面</strong>（产品页、LED 配件页、before/after 博客、套装多页），这是图文侧可对标的打法。</li>
+    <li><strong>短视频标题公式 = 人群钩子 + 数字 + 避坑：</strong>"姐妹/懒人/新手/40岁" + "六款/每天十分钟" + "别被坑/买对不买贵"。</li>
+  </ol>
+</section>
+
+<section>
+  <h2><span class="no">02</span>采集口径与 7 题一览</h2>
+  <table>
+    <thead><tr><th>题号</th><th>意图类别</th><th>横幅宣称</th><th>实际展开</th><th>短视频</th><th>图文</th></tr></thead>
+    <tbody>
+      <tr><td>Q1</td><td>品类种草类</td><td>30 篇</td><td>18</td><td><span class="tag vid">15</span></td><td><span class="tag art">3</span></td></tr>
+      <tr><td>Q2</td><td>场景种草类（面颈一体）</td><td>27 篇</td><td>16</td><td><span class="tag vid">11</span></td><td><span class="tag art">5</span></td></tr>
+      <tr><td>Q3</td><td>人群种草类</td><td>未联网</td><td>0</td><td>0</td><td>0</td></tr>
+      <tr><td>Q4</td><td>决策催化类（配套精华）</td><td>25 篇</td><td>15</td><td><span class="tag vid">12</span></td><td><span class="tag art">3</span></td></tr>
+      <tr><td>Q5</td><td>竞品拦截类（vs NuFACE）</td><td>38 篇</td><td>22</td><td><span class="tag vid">6</span></td><td><span class="tag art">16</span></td></tr>
+      <tr><td>Q6</td><td>信任构建类（怕强电流）</td><td>未联网</td><td>0</td><td>0</td><td>0</td></tr>
+      <tr><td>Q7</td><td>转化促单类（在哪买）</td><td>25 篇</td><td>24</td><td><span class="tag vid">8</span></td><td><span class="tag art">16</span></td></tr>
+      <tr style="font-weight:700"><td colspan="3">合计</td><td>95</td><td>52</td><td>43</td></tr>
+    </tbody>
+  </table>
+  <div class="note">互动数据（点赞/评论/转发/时长）本期在本机环境不可得，统一标 unknown。Q1 的 18 条含完整 URL（DevTools 控制台提取）；Q2/Q4/Q5/Q7 的 TOP10 链接为域名级（点击可直达对应站点首页/品牌站），下期用 DevTools 逐题补全深链。</div>
+</section>
+
+<section>
+  <h2><span class="no">03</span>短视频信源分析（52 条）</h2>
+  <p class="intro">按类型、风格、品牌占位、标题结构拆解。</p>
+
+  <h3>3.1 类型分布</h3>
+  <table>
+    <thead><tr><th>视频类型</th><th>条数</th><th>占比</th><th>典型题</th><th>为什么被引用</th></tr></thead>
+    <tbody>
+      <tr><td>单品种草/亲测</td><td>22</td><td>42%</td><td>Q1/Q2/Q4</td><td>第一人称"我用了XX"提供可信度</td></tr>
+      <tr><td>横评/多品测评</td><td>11</td><td>21%</td><td>Q1/Q4/Q2</td><td>"六款实测/红黑榜"直接给对比表</td></tr>
+      <tr><td>教程/使用方法</td><td>8</td><td>15%</td><td>Q4/Q7</td><td>"凝胶怎么选/每天十分钟"给步骤</td></tr>
+      <tr><td>避坑/认知纠偏</td><td>6</td><td>12%</td><td>Q1/Q2</td><td>"别被坑/快醒醒"补禁忌段</td></tr>
+      <tr><td>直播/带货切片</td><td>5</td><td>10%</td><td>Q7</td><td>VDFIT 官方上新、刘耕宏直播回放</td></tr>
+    </tbody>
+  </table>
+
+  <h3>3.2 品牌占位</h3>
+  <table>
+    <thead><tr><th>品牌</th><th>命中</th><th>出现题</th><th>评价</th></tr></thead>
+    <tbody>
+      <tr><td><strong>VDFIT（自有）</strong></td><td>8</td><td>Q1×1、Q5×4、Q7×3</td><td>竞品题位次最好，纯种草题缺席</td></tr>
+      <tr><td>索朗特</td><td>5</td><td>Q1×2、Q2×2、Q4×1</td><td>常驻种草位</td></tr>
+      <tr><td>雅萌/宙斯·美杜莎</td><td>9</td><td>Q1、Q4</td><td>高端手持线，横评必出现</td></tr>
+      <tr><td>名塑</td><td>3</td><td>Q1、Q2、Q4</td><td>"能头戴"同素材跨题复用</td></tr>
+      <tr><td>慕苏</td><td>2</td><td>Q2</td><td>卸妆/护肤软植入</td></tr>
+    </tbody>
+  </table>
+
+  <h3>3.3 短视频 TOP10 信源（可点击）</h3>
+
+  <p><strong>Q1 品类种草 · 短视频 TOP10</strong></p>
+  <table>
+    <thead><tr><th>位次</th><th>标题（节选）</th><th>品牌</th><th>链接</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>炸裂！热门新品美容仪测评推荐</td><td>—</td><td class="src"><a href="https://www.iesdouyin.com/share/video/7597337662533455150" target="_blank" rel="noopener">抖音视频</a></td></tr>
+      <tr><td>2</td><td>医学生测评，乱用美容仪只会害了你</td><td>索朗特</td><td class="src"><a href="https://www.iesdouyin.com/share/video/7698698271527087609" target="_blank" rel="noopener">抖音视频</a></td></tr>
+      <tr><td>3</td><td>内行人真心话：美容仪买对不买贵</td><td>索朗特</td><td class="src"><a href="https://www.iesdouyin.com/share/video/7697194378921512233" target="_blank" rel="noopener">抖音视频</a></td></tr>
+      <tr><td>4</td><td>热门V脸仪双十一选购合集（麦尔颜/欧泉琳/ovl/名塑/mericle）</td><td>多品牌</td><td class="src"><a href="https://www.iesdouyin.com/share/video/7696115672959798491" target="_blank" rel="noopener">抖音视频</a></td></tr>
+      <tr><td>5</td><td>热门新品美容仪别被坑了</td><td>—</td><td class="src"><a href="https://www.iesdouyin.com/share/video/7355454920570473779" target="_blank" rel="noopener">抖音视频</a></td></tr>
+      <tr><td>6</td><td>买贵的不如买对的！#VDFIT光塑V脸仪</td><td><strong>VDFIT</strong></td><td class="src"><a href="https://www.iesdouyin.com/share/video/7696841976406994153" target="_blank" rel="noopener">抖音视频</a></td></tr>
+      <tr><td>7</td><td>美业人不会连这个都不知道吧（三分钟科普）</td><td>—</td><td class="src"><a href="https://www.iesdouyin.com/share/video/7300972113228352818" target="_blank" rel="noopener">抖音视频</a></td></tr>
+      <tr><td>8</td><td>光子？微电流？射频？多品牌怎么选（美杜莎/jovs/雅萌）</td><td>多品牌</td><td class="src"><a href="https://www.iesdouyin.com/share/video/7501641477538614587" target="_blank" rel="noopener">抖音视频</a></td></tr>
+      <tr><td>9</td><td>（图文，见04板块）</td><td>央视网</td><td class="src"><a href="http://big5.cctv.com/gate/big5/style.cctv.com/2022/09/23/ARTIaCIUu5SMoRAPzUEUD2mK220922.shtml" target="_blank" rel="noopener">央视网</a></td></tr>
+      <tr><td>10</td><td>美容仪的真相：鸡肋还是黑科技（珂诗黎）</td><td>珂诗黎</td><td class="src"><a href="https://www.iesdouyin.com/share/video/7389077451852303627" target="_blank" rel="noopener">抖音视频</a></td></tr>
+    </tbody>
+  </table>
+
+  <p><strong>Q2 场景种草（面颈一体）· 短视频 TOP10</strong>（域名级链接）</p>
+  <table>
+    <thead><tr><th>位次</th><th>标题（节选）</th><th>品牌</th><th>链接</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>慕苏护肤正确步骤分享</td><td>慕苏</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>2</td><td>慕苏卸妆清洁分享</td><td>慕苏</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>3</td><td>面颈一体瘦脸仪推荐</td><td>—</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>4</td><td>咬合锻炼有用吗</td><td>—</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>5</td><td>肩颈按摩仪推荐</td><td>—</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>11</td><td>颈部护理教程</td><td>—</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>12</td><td>索朗特过来人建议</td><td>索朗特</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>13</td><td>V脸仪合集（含名塑/Mericle）</td><td>名塑/Mericle</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>14</td><td>内行人推荐</td><td>—</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>15</td><td>五款热门深扒</td><td>—</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+    </tbody>
+  </table>
+
+  <p><strong>Q4 决策催化（配套精华）· 短视频 TOP10</strong>（域名级链接）</p>
+  <table>
+    <thead><tr><th>位次</th><th>标题（节选）</th><th>品牌</th><th>链接</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>六款实测赶紧码住</td><td>多品牌</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>2</td><td>想入手美容仪姐妹直接住这篇</td><td>多品牌</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>3</td><td>从穷到拉说一下热门美容仪</td><td>多品牌</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>5</td><td>自用美容仪分享 #索朗特大熨斗</td><td>索朗特</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>6</td><td>美容仪别再盲目乱选了（纽立）</td><td>纽立</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>7</td><td>美容仪精华凝胶怎么选</td><td>—</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>8</td><td>凝胶专用初普雅萌宙斯</td><td>初普/雅萌/宙斯</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>9</td><td>价值好几w的视频，买对=省Q</td><td>—</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>10</td><td>雅萌和宙斯新手小白怎么选</td><td>雅萌/宙斯</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+    </tbody>
+  </table>
+
+  <p><strong>Q5 竞品拦截（vs NuFACE）· 短视频 TOP10</strong></p>
+  <table>
+    <thead><tr><th>位次</th><th>标题（节选）</th><th>品牌</th><th>链接</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>40岁能这样，多亏我的下颌线搭子 #VDFIT光塑V脸仪</td><td><strong>VDFIT</strong></td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>2</td><td>适合懒人每天打卡的美容仪出现了 #VDFIT美容仪6.0</td><td><strong>VDFIT</strong></td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>5</td><td>VDFIT光塑V脸仪VF6.0 微电流+光塑，在家提拉</td><td><strong>VDFIT</strong></td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>6</td><td>每天十分钟，做精致女人 #VDFIT光塑V脸仪6.0</td><td><strong>VDFIT</strong></td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>19</td><td>腰带全新升级，45档，购入须知</td><td>VDFIT腰带</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>22</td><td>别总去美容院，教你这招更省钱 #美塑仪</td><td>—</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+    </tbody>
+  </table>
+
+  <p><strong>Q7 转化促单（在哪买）· 短视频</strong></p>
+  <table>
+    <thead><tr><th>位次</th><th>标题（节选）</th><th>类型</th><th>链接</th></tr></thead>
+    <tbody>
+      <tr><td>15</td><td>3.26晚上七点见 #上新了在抖音（VDFIT官方直播）</td><td>直播切片</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>16-18</td><td>刘耕宏畊练团直播回放×3</td><td>直播切片</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>19</td><td>一台搞定全脸 #VDFIT美容仪</td><td>种草</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>20</td><td>#VDFIT光塑V脸仪 #VF6.0</td><td>种草</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>21</td><td>这不比那大几千划算多了 #VDFIT</td><td>种草</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+      <tr><td>22</td><td>美容仪正确使用方式</td><td>教程</td><td class="src"><a href="https://www.iesdouyin.com" target="_blank" rel="noopener">抖音</a></td></tr>
+    </tbody>
+  </table>
+
+  <h3>3.4 短视频对标建议</h3>
+  <ul>
+    <li><strong>补纯种草空位：</strong>拍3条横评——①六款头戴V脸仪实测（含VF6.0/名塑/Mericle/ovl）；②面颈一体怎么选；③新手第一台EMS V脸仪别乱买。</li>
+    <li><strong>扩大竞品题优势：</strong>继续拍VDFIT vs NuFACE/初普/雅萌系列，每条结尾给"谁适合买哪款"。</li>
+    <li><strong>互动数据：</strong>下期用蝉妈妈/飞瓜对每型抽2-3条补点赞/评论/转发/时长，建立"位次+互动"双代理。</li>
+  </ul>
+</section>
+
+<section>
+  <h2><span class="no">04</span>图文信源分析（43 条）</h2>
+  <p class="intro">按体裁、结构、出处分类。</p>
+
+  <h3>4.1 图文信源分类</h3>
+  <table>
+    <thead><tr><th>类别</th><th>条数</th><th>代表来源</th><th>消费者画像</th></tr></thead>
+    <tbody>
+      <tr><td><span class="tag art">品牌官网/产品页</span></td><td>19</td><td>NuFACE(10+)、VDFIT(3)、雅萌、FOREO、松下、ANLAN、VirtuFit</td><td>决策中期、看官方参数</td></tr>
+      <tr><td><span class="tag art">电商/导购页</span></td><td>14</td><td>淘宝、京东、什么值得买</td><td>临近下单、比价</td></tr>
+      <tr><td><span class="tag art">权威媒体/科普</span></td><td>3</td><td>央视网、南方都市报、新华网行业报告</td><td>把媒体当中立背书</td></tr>
+      <tr><td><span class="tag art">政务/监管</span></td><td>1</td><td>通辽市监局消费提示</td><td>关注合规风险</td></tr>
+      <tr><td><span class="tag art">精华/凝胶页</span></td><td>6</td><td>Flawless Serum 等</td><td>已有仪器、找配套介质</td></tr>
+    </tbody>
+  </table>
+
+  <h3>4.2 图文 TOP10 信源（可点击）</h3>
+
+  <p><strong>Q1 品类种草 · 图文信源</strong></p>
+  <table>
+    <thead><tr><th>位次</th><th>标题</th><th>类型</th><th>链接</th></tr></thead>
+    <tbody>
+      <tr><td>9</td><td>怎么选择适合自己的美容仪（央视网时尚台）</td><td>权威科普</td><td class="src"><a href="http://big5.cctv.com/gate/big5/style.cctv.com/2022/09/23/ARTIaCIUu5SMoRAPzUEUD2mK220922.shtml" target="_blank" rel="noopener">cctv.com</a></td></tr>
+      <tr><td>11</td><td>家用美容美体仪行业核心产品趋势报告（PDF）</td><td>行业报告</td><td class="src"><a href="http://www.news.cn/tech/download/bg.pdf" target="_blank" rel="noopener">news.cn</a></td></tr>
+      <tr><td>17</td><td>瘦脸神器给你"V字脸"？快醒醒吧（南方都市报）</td><td>体验报道</td><td class="src"><a href="https://static.nfapp.southcn.com/content/201610/13/c145621.html" target="_blank" rel="noopener">southcn.com</a></td></tr>
+    </tbody>
+  </table>
+
+  <p><strong>Q2 场景种草（面颈一体）· 图文信源</strong></p>
+  <table>
+    <thead><tr><th>位次</th><th>标题</th><th>类型</th><th>链接</th></tr></thead>
+    <tbody>
+      <tr><td>6</td><td>松下 EH-SP86 面部按摩仪</td><td>品牌官网</td><td class="src"><a href="https://www.panasonic.cn" target="_blank" rel="noopener">panasonic.com</a></td></tr>
+      <tr><td>7</td><td>FOREO BEAR 2 微电流美容仪</td><td>品牌官网</td><td class="src"><a href="https://www.foreo.com" target="_blank" rel="noopener">foreo.com</a></td></tr>
+      <tr><td>8</td><td>京东美容仪商品页</td><td>电商</td><td class="src"><a href="https://www.jd.com" target="_blank" rel="noopener">jd.com</a></td></tr>
+      <tr><td>9</td><td>京东面颈一体商品页</td><td>电商</td><td class="src"><a href="https://www.jd.com" target="_blank" rel="noopener">jd.com</a></td></tr>
+      <tr><td>10</td><td>ANLAN 颈部美容仪</td><td>品牌官网</td><td class="src"><a href="https://www.anlan.com" target="_blank" rel="noopener">anlan.com</a></td></tr>
+    </tbody>
+  </table>
+
+  <p><strong>Q4 决策催化（配套精华）· 图文信源</strong></p>
+  <table>
+    <thead><tr><th>位次</th><th>标题</th><th>类型</th><th>链接</th></tr></thead>
+    <tbody>
+      <tr><td>4</td><td>ルミナスリフト for Salon｜YA-MAN プロフェッショナル</td><td>品牌官网（日）</td><td class="src"><a href="https://www.ya-man.com" target="_blank" rel="noopener">ya-man.com</a></td></tr>
+      <tr><td>12</td><td>Flawless Serum SMOOTH 80g</td><td>精华产品页</td><td class="src"><a href="https://www.flawlessbeauty.com" target="_blank" rel="noopener">flawlessbeauty.com</a></td></tr>
+      <tr><td>15</td><td>メディリフト プラス セラムセット｜ヤーマン公式通販</td><td>品牌官网（日）</td><td class="src"><a href="https://www.yaaman.com" target="_blank" rel="noopener">ya-man.com</a></td></tr>
+    </tbody>
+  </table>
+
+  <p><strong>Q5 竞品拦截（vs NuFACE）· 图文 TOP10</strong></p>
+  <table>
+    <thead><tr><th>位次</th><th>标题</th><th>类型</th><th>链接</th></tr></thead>
+    <tbody>
+      <tr><td>3</td><td>Devices 2026 - NUFACE</td><td>NuFACE官网</td><td class="src"><a href="https://www.nuface.com" target="_blank" rel="noopener">nuface.com</a></td></tr>
+      <tr><td>4</td><td>Real Microcurrent Before & After: Week 1/30/60</td><td>NuFACE博客</td><td class="src"><a href="https://www.nuface.com" target="_blank" rel="noopener">nuface.com</a></td></tr>
+      <tr><td>7</td><td>TRINITY+ Complete Set | NUFACE</td><td>NuFACE官网</td><td class="src"><a href="https://www.nuface.com" target="_blank" rel="noopener">nuface.com</a></td></tr>
+      <tr><td>8</td><td>Trinity+ LED Red Light Attachment | NUFACE</td><td>NuFACE配件页</td><td class="src"><a href="https://www.nuface.com" target="_blank" rel="noopener">nuface.com</a></td></tr>
+      <tr><td>9</td><td>TRINITY+ Complete Set | NuFACE</td><td>NuFACE官网</td><td class="src"><a href="https://www.nuface.com" target="_blank" rel="noopener">nuface.com</a></td></tr>
+      <tr><td>10</td><td>TRINITY+ Complete Brilliant Lift Set</td><td>NuFACE套装页</td><td class="src"><a href="https://www.nuface.com" target="_blank" rel="noopener">nuface.com</a></td></tr>
+      <tr><td>18</td><td>VD FIT｜原创轻奢美护品牌</td><td><strong>VDFIT官网</strong></td><td class="src"><a href="https://www.vdfit.com.cn" target="_blank" rel="noopener">vdfit.com.cn</a></td></tr>
+    </tbody>
+  </table>
+
+  <p><strong>Q7 转化促单（在哪买）· 图文 TOP10</strong></p>
+  <table>
+    <thead><tr><th>位次</th><th>标题</th><th>类型</th><th>链接</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>VD FIT｜原创轻奢美护品牌</td><td><strong>VDFIT官网</strong></td><td class="src"><a href="https://www.vdfit.com.cn" target="_blank" rel="noopener">vdfit.com.cn</a></td></tr>
+      <tr><td>3</td><td>VDFIT 产品页</td><td><strong>VDFIT官网</strong></td><td class="src"><a href="https://www.vdfit.com.cn" target="_blank" rel="noopener">vdfit.com.cn</a></td></tr>
+      <tr><td>2</td><td>ems微电流塑形腰带加热（淘宝搜索）</td><td>电商聚合</td><td class="src"><a href="https://www.taobao.com" target="_blank" rel="noopener">taobao.com</a></td></tr>
+      <tr><td>5</td><td>全燃美塑仪家用版（淘宝）</td><td>电商</td><td class="src"><a href="https://www.taobao.com" target="_blank" rel="noopener">taobao.com</a></td></tr>
+      <tr><td>6</td><td>玻尿酸精华美容液（淘宝）</td><td>电商</td><td class="src"><a href="https://www.taobao.com" target="_blank" rel="noopener">taobao.com</a></td></tr>
+      <tr><td>8</td><td>健身腹肌机（京东商城）</td><td>电商</td><td class="src"><a href="https://www.jd.com" target="_blank" rel="noopener">jd.com</a></td></tr>
+      <tr><td>10</td><td>【省417元】VD FIT全燃美塑仪（什么值得买）</td><td>导购</td><td class="src"><a href="https://www.smzdm.com" target="_blank" rel="noopener">smzdm.com</a></td></tr>
+      <tr><td>11</td><td>VD FIT全燃红蓝光美塑仪（淘宝）</td><td>电商</td><td class="src"><a href="https://www.taobao.com" target="_blank" rel="noopener">taobao.com</a></td></tr>
+      <tr><td>12</td><td>VD FIT简奢版全燃美塑仪（淘宝）</td><td>电商</td><td class="src"><a href="https://www.taobao.com" target="_blank" rel="noopener">taobao.com</a></td></tr>
+      <tr><td>13</td><td>双节网络购买医疗器械消费提示（通辽市监局）</td><td>政务</td><td class="src"><a href="https://www.samr.gov.cn" target="_blank" rel="noopener">samr.gov.cn</a></td></tr>
+    </tbody>
+  </table>
+
+  <h3>4.3 图文对标建议</h3>
+  <ul>
+    <li><strong>学NuFACE拆URL：</strong>把VF6.0拆成独立产品页/凝胶配件页/颈部使用页/before-after页多个可被引用URL。</li>
+    <li><strong>补中立科普：</strong>投一篇《EMS微电流V脸仪选购指南》到科技媒体，对标央视网/南都位。</li>
+    <li><strong>电商聚合页标题：</strong>淘宝/京东旗舰店标题覆盖"面颈一体/微电流/光疗/佩戴式/下颌线"关键词。</li>
+  </ul>
+</section>
+
+<section>
+  <h2><span class="no">05</span>分题洞察</h2>
+  <div class="grid2">
+    <div class="note"><strong>Q1 品类种草：</strong>VDFIT仅#6一条；索朗特/名塑/雅萌/宙斯常驻。补横评视频。</div>
+    <div class="note"><strong>Q2 面颈一体：</strong>品牌官网页（松下/Foreo/ANLAN）被引用。补面颈一体独立产品页。</div>
+    <div class="warn"><strong>Q3 人群种草（0信源）：</strong>豆包默认不联网。下期改写成"VDFIT戴10分钟 vs NuFACE手持5分钟哪个容易坚持"。</div>
+    <div class="note"><strong>Q4 配套精华：</strong>雅萌日本站×2被引用。VF6.0次抛精华套装页要独立URL。</div>
+    <div class="note"><strong>Q5 vs NuFACE：</strong>NuFACE官网10+页霸屏图文，但VDFIT视频拿下#1/#2/#5/#6。继续拍对比。</div>
+    <div class="warn"><strong>Q6 怕强电流（0信源）：</strong>豆包默认不联网。下期改写成"VDFIT 18档和NuFACE 12档，敏感肌怎么选"。</div>
+  </div>
+  <div class="note" style="margin-top:12px"><strong>Q7 在哪买：</strong>TOP10全图文（官网/淘宝/京东/什么值得买）。视频位被官方直播切片占据，持续产出直播间切片。</div>
+</section>
+
+<section>
+  <h2><span class="no">06</span>对标选题（可直接立项）</h2>
+  <table>
+    <thead><tr><th>选题</th><th>形式</th><th>标题钩子</th></tr></thead>
+    <tbody>
+      <tr><td>① 六款头戴V脸仪横评</td><td>短视频</td><td>《六款头戴V脸仪实测：VF6.0/名塑/Mericle/ovl谁是智商税？》</td></tr>
+      <tr><td>② VDFIT vs NuFACE懒人版</td><td>短视频</td><td>《戴10分钟vs手持5分钟，下颌线护理怎么选？》</td></tr>
+      <tr><td>③ 敏感肌怕刺痛怎么选档位</td><td>图文+视频</td><td>《怕强电流的人看这3个参数（附VF6.0 18档适应法）》</td></tr>
+      <tr><td>④ 面颈一体使用教程</td><td>短视频</td><td>《下颌+颈部一起练：VF6.0颈部模式10分钟跟练》</td></tr>
+      <tr><td>⑤ 官网内容结构化</td><td>图文</td><td>VF6.0拆成产品页/凝胶页/颈部使用页/before-after页</td></tr>
+      <tr><td>⑥ 中立选购指南科普</td><td>图文（投媒体）</td><td>《EMS微电流V脸仪怎么选：档位/光疗/佩戴》</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2><span class="no">07</span>数据缺口与下期迭代</h2>
+  <ul>
+    <li><strong>Q3/Q6 重问：</strong>下期用带品牌对比的改写问法重问，验证能否撬动联网。</li>
+    <li><strong>互动数据：</strong>本期52条视频的点赞/评论/转发/时长仍为unknown；下期用蝉妈妈/飞瓜对每型抽2-3条补采。</li>
+    <li><strong>URL深链：</strong>本期Q1已含完整URL；Q2/Q4/Q5/Q7为域名级链接，下期用DevTools逐题补全深链。</li>
+    <li><strong>去重机制：</strong>第2期起同一信源往期已报且无新进展只列索引，正文不重复。</li>
+    <li><strong>游标：</strong>155题按7类游标依次取，本期每类取第1题，下期取第2题，可滚动约22周。</li>
+  </ul>
+</section>
+
+<footer>
+  <div>数据来源：豆包网页版同一会话连续7问参考面板（2026-11-10）；互动数据本机不可得，未做估算。</div>
+  <div>问题池：GEO主题意图问句_V脸仪_261109.xlsx（155题，7类）</div>
+  <div class="brandline">MOVE WITH CONFIDENCE · VD FIT产品团队</div>
+</footer>
+
+</div>
+</body>
+</html>
